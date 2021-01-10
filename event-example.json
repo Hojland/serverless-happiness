@@ -1,0 +1,104 @@
+{
+    "entry_response_body": {
+        "token": [
+            "BhHyxbwEDg8TP6JLHNKdNCpL"
+        ],
+        "team_id": [
+            "T02SV47MR"
+        ],
+        "team_domain": [
+            "tdcgroup"
+        ],
+        "channel_id": [
+            "DSC1HJ36U"
+        ],
+        "channel_name": [
+            "directmessage"
+        ],
+        "user_id": [
+            "USDSRRQDV"
+        ],
+        "user_name": [
+            "molheh"
+        ],
+        "command": [
+            "/mood"
+        ],
+        "api_app_id": [
+            "ATVGD5G83"
+        ],
+        "is_enterprise_install": [
+            "false"
+        ],
+        "response_url": [
+            "https://hooks.slack.com/commands/T02SV47MR/1610039831079/m8HN8ujiSHURNN2SRPqT8uUJ"
+        ],
+        "trigger_id": [
+            "1618036491974.2913143739.c3cbfea66748c496c9be768389c27f29"
+        ]
+    },
+    "interactivity_response_example": {
+        "payload": {
+            "type": "block_actions",
+            "user": {
+                "id": "USDSRRQDV",
+                "username": "molheh",
+                "name": "molheh",
+                "team_id": "T02SV47MR"
+            },
+            "api_app_id": "ATVGD5G83",
+            "token": "BhHyxbwEDg8TP6JLHNKdNCpL",
+            "container": {
+                "type": "message",
+                "message_ts": "1609703716.000300",
+                "channel_id": "DSC1HJ36U",
+                "is_ephemeral": "true"
+            },
+            "trigger_id": "1605933800597.2913143739.21b07021d805ab0d913641f9a74b9169",
+            "team": {
+                "id": "T02SV47MR",
+                "domain": "tdcgroup"
+            },
+            "enterprise": "null",
+            "is_enterprise_install": "false",
+            "channel": {
+                "id": "DSC1HJ36U",
+                "name": "directmessage"
+            },
+            "state": {
+                "values": {
+                    "YOBAn": {
+                        "actionId-0": {
+                            "type": "radio_buttons",
+                            "selected_option": {
+                                "text": {
+                                    "type": "plain_text",
+                                    "text": ":star::star::star::star:",
+                                    "emoji": "true"
+                                },
+                                "value": "star-4"
+                            }
+                        }
+                    }
+                }
+            },
+            "response_url": "https:\\/\\/hooks.slack.com\\/actions\\/T02SV47MR\\/1609226913475\\/vWoqqKunYG3YqKjQfzhFkzqu",
+            "actions": [
+                {
+                    "action_id": "actionId-0",
+                    "block_id": "YOBAn",
+                    "selected_option": {
+                        "text": {
+                            "type": "plain_text",
+                            "text": ":star::star::star::star:",
+                            "emoji": "true"
+                        },
+                        "value": "star-4"
+                    },
+                    "type": "radio_buttons",
+                    "action_ts": "1609703718.226382"
+                }
+            ]
+        }
+    }
+}
